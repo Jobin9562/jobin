@@ -1,48 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-body{
-    background-repeat: no-repeat;background-size: cover;
-}
-.bimg{
-    width: 200px;
-}
-.header{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: inherit;color-interpolation-filters: inherit;color: #c3e5eb; font-weight: bolder;position: absolute;left:35%;font-size: xx-large;
-}
-.images{
-    background-color: #c3e5eb;width: 650px;height: 500px; position: absolute;left:34%;top: 30%;
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-}
-.imgspo{width: 200px;
-cursor: pointer;
-}
+        .bimg {
+            width: 200px;
+        }
 
-.des
-{
-    font-size: medium;font-weight: bold;font-family: sans-serif; color: #cfe6fa;position: absolute;left: 20px;top: 25%;
-}
+        .header {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: initial;
+            color-interpolation-filters: inherit;
+            color: #ffffff;
+            ;
+            font-weight: bolder;
+            text-align: center;
+            font-size: xx-large;
+        }
 
+        .images {
+            background-color: #c3e5eb;
+            width: 615px;
+            height: 350px;
+            position: absolute;
+            left: 28%;
+            top: 32%;
+            background-image: url(play.avif);
+            background-repeat: no-repeat;
+            padding-top: 65px;
+            border-radius: 20px
+        }
+
+        .imgspo {
+            width: 200px;
+            height: 130px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px
+        }
+
+        .imgspo:hover {
+            transform: scale(1.1);
+        }
+
+        .des {
+            font-size: medium;
+            font-weight: bold;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            color: #fafafa;
+            position: absolute;
+            left: 20px;
+            top: 25%;
+        }
+
+        .appleimg {
+            width: 200px;
+            cursor: pointer;
+            height: 130px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px;
+
+        }
+
+        .appleimg:hover {
+            transform: scale(1.1);
+        }
+
+        .amazon {
+            width: 200px;
+            height: 130px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px
+        }
+
+        .amazon:hover {
+            transform: scale(1.1);
+        }
+
+
+        .youtube {
+            width: 200px;
+            height: 130px;
+            cursor: pointer;
+            padding-top: 5px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px
+        }
+
+        .youtube:hover {
+            transform: scale(1.1);
+
+        }
+
+        .tidar {
+            width: 200px;
+            height: 130px;
+            cursor: pointer;
+            padding-top: 5px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px
+        }
+
+        .tidar:hover {
+            transform: scale(1.1);
+        }
+
+        .wynk {
+            width: 200px;
+            height: 130px;
+            cursor: pointer;
+            padding-top: 5px;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 20px
+        }
+
+        .wynk:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
+
 <body background="lilili.jpg">
-   
-    
-    <div class="header"><h1 class="title">Music Station</h1></div>  
-    
-    <p class="des">Listern to your favourite songs  from where ever you want.<br>Unlimitted access to every play staions.</p></div><br>
+    <div>
 
-    <div class ="images">
-<img src="spotify-logo-1920x1080.jpg" alt="" class="imgspo">
 
+        <div class="header">
+            <h1 class="title">Music Station</h1>
+        </div>
+
+        <p class="des">Listern to your favourite songs from where ever you want.<br>Unlimitted access to every play
+            staions.</p>
+    </div><br>
+
+    <div class="images">
+        <a href="https://open.spotify.com/"><img src="spotify-logo-1920x1080.jpg" alt="" class="imgspo"></a>
+        <a href="https://music.apple.com/us/browse"><img src="Apple-Music-100-million-songs-hero_big.jpg.small_2x.jpg"
+                alt="" class="appleimg"></a>
+        <a href="https://music.amazon.in/"><img src="Amazon-.webp" alt="" class="amazon"></a>
+        <a href="https://music.youtube.com/"><img src="youtbe.jpeg" alt="" class="youtube"></a>
+        <a href="https://tidal.com/"><img src="tidal.jpg" alt="" class="tidar"></a>
+        <a href="https://wynk.in/music"><img src="wynk.jpeg" alt="" class="wynk"></a>
+
+    </div>
+    <audio src="song2.mp3" autoplay></audio>
     </div>
 
 
 
-    
+
 </body>
+
 </html>
